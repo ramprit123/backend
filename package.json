@@ -20,10 +20,15 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "@clerk/nextjs": "^6.34.1",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@prisma/client": "^6.18.0",
+    "express": "^5.1.0",
+    "inngest": "^3.44.4",
     "prisma": "^6.18.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
